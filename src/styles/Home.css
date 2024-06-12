@@ -1,0 +1,94 @@
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+a.tbl-black {
+  background: #000000;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-black:hover {
+  background: #000000;
+  text-decoration: none;
+}
+
+a.tbl-green {
+  background: #1B9154;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-green:hover {
+  background: #1B9154;
+  text-decoration: none;
+}
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+p {
+    font-family: 'Arial Black', sans-serif; /* Match the font family */
+    margin: 10px 0px; /* Same margin as specified */
+    padding: 10px 0px; /* Same padding as specified */
+    font-size: 16px; /* Adjust font size if necessary */
+    color: #364f6b; /* Match the color with heading color */
+  }
+  
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #364f6b;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arial+Black&display=swap');
+
+h2 {
+  font-family: 'Arial Black', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  width: 100%;
+  line-height: 50px;
+}
+
+.green-text {
+  color: #1B9154; 
+}
+
+.black-text {
+  color: #000000;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 991.98px) {
+  section {
+    display: block;
+  }
+
+  section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

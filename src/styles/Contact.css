@@ -1,0 +1,37 @@
+#contact {
+  background: #dedede;
+  padding: 50px 0px 50px 0px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #333;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-section a i {
+  margin-right: 10px;
+}
+
+.footer-section a:hover {
+  color: #007bff;
+}
