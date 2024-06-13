@@ -1,57 +1,61 @@
+import strawberryImage from '../assets/strawberry.png';
+import watermelonImage from '../assets/watermelon.png';
+import melonImage from '../assets/melon.png';
+
 export const tutorsSection = {
-    content: `              <h2>Products</h2>
-                            <p></p>`
-}
+    content: `<h2>Products</h2>
+              <p>the products we sell are fresh local fruits & vegetables</p>`
+};
 
 export const tutorsList = [
     {
-        image: 'https://dfu1k3y1rami2.cloudfront.net/wp-content/uploads/2014/07/26195109/2020_cb.jpg',
+        image: strawberryImage,
         name: 'Strawberry',
-        description: 'Fresh and sweet'
+        description: 'Type: California, Festival'
     },
     {
-        image: 'https://images.ctfassets.net/1wryd5vd9xez/4DxzhQY7WFsbtTkoYntq23/a4a04701649e92a929010a6a860b66bf/https___cdn-images-1.medium.com_max_2000_1_Y6l_FDhxOI1AhjL56dHh8g.jpeg',
+        image: watermelonImage,
         name: 'Watermelon',
-        description: 'Juicy and refreshing'
+        description: 'Type: red, yellow'
     },
     {
-        image: 'https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/fc/3021752-inline-i-1-why-square-designed-its-new-offices-to-work-like-a-city.jpg',
-        name: 'Michael Dell',
-        description: 'Tech innovator'
+        image: melonImage,
+        name: 'Melon',
+        description: 'Type: Cantaloupe, Honeydew'
     },
     {
-        image: 'https://blogs-images.forbes.com/jackkelly/files/2019/06/Jack-Kelly_avatar_1559658819-400x400.jpg',
+        image: strawberryImage,
         name: 'Bruce Wills',
         description: 'Actor and producer'
     },
     {
-        image: 'https://blogs-images.forbes.com/jackkelly/files/2019/06/Jack-Kelly_avatar_1559658819-400x400.jpg',
+        image: strawberryImage,
         name: 'Bruce Wills',
         description: 'Actor and producer'
     },
     {
-        image: 'https://blogs-images.forbes.com/jackkelly/files/2019/06/Jack-Kelly_avatar_1559658819-400x400.jpg',
+        image: strawberryImage,
         name: 'Bruce Wills',
         description: 'Actor and producer'
     },
     {
-        image: 'https://blogs-images.forbes.com/jackkelly/files/2019/06/Jack-Kelly_avatar_1559658819-400x400.jpg',
+        image: strawberryImage,
         name: 'Bruce Wills',
         description: 'Actor and producer'
     },
     {
-        image: 'https://blogs-images.forbes.com/jackkelly/files/2019/06/Jack-Kelly_avatar_1559658819-400x400.jpg',
+        image: strawberryImage,
         name: 'Bruce Wills',
         description: 'Actor and producer'
     },
     {
-        image: 'https://blogs-images.forbes.com/jackkelly/files/2019/06/Jack-Kelly_avatar_1559658819-400x400.jpg',
+        image: strawberryImage,
         name: 'Bruce Wills',
         description: 'Actor and producer'
     },
     {
-        image: 'https://blogs-images.forbes.com/jackkelly/files/2019/06/Jack-Kelly_avatar_1559658819-400x400.jpg',
+        image: strawberryImage,
         name: 'Bruce Wills',
         description: 'Actor and producer'
     },
-]
+];

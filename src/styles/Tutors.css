@@ -21,7 +21,7 @@
   font-size: 15px;
   text-align: center;
   color: #000000c2;
-  margin-bottom: 0; /* Removed margin-bottom to make it closer */
+  margin-bottom: 0;
 }
 
 .kartu-tutor small {
@@ -29,6 +29,6 @@
   font-size: 12px;
   color: #666;
   text-align: center;
-  margin-top: 0; /* Ensures no top margin */
-  padding-top: 0; /* Ensures no padding */
+  margin-top: 0; 
+  padding-top: 0; 
 }
