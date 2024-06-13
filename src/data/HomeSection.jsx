@@ -2,7 +2,6 @@ import bennerImage from '../assets/benner.png';
 
 export const homeSection = {
     content: `
-        <p className="deskripsi">Belajar Programming #dirumahaja</p>
         <h2>
             <span class="green-text">FRESH</span> <span class="black-text">FROM THE FIELD</span>
         </h2>

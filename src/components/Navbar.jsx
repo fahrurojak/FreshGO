@@ -12,7 +12,6 @@ function Navbar() {
                         <li><a href="#tutors">Products</a></li>
                         <li><a href="#partners">Delivery</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="" className="tbl-black">Sign Up</a></li>
                     </ul>
                 </div>
             </div>

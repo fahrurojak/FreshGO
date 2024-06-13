@@ -16,9 +16,19 @@
 }
 
 .kartu-tutor p {
-  font-family: "comic sans ms";
+  font-family: 'Arial Black', sans-serif;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
-  color: #000000;
+  color: #000000c2;
+  margin-bottom: 0; /* Removed margin-bottom to make it closer */
+}
+
+.kartu-tutor small {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  margin-top: 0; /* Ensures no top margin */
+  padding-top: 0; /* Ensures no padding */
 }

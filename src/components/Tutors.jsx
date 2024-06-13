@@ -1,4 +1,5 @@
-import '../styles/Tutors.css'
+import '../styles/Tutors.css';
+
 function Tutors(props) {
     return (
         <div className="tutor-list">
@@ -6,8 +7,9 @@ function Tutors(props) {
                 props.tutorsList.map((item, index) => {
                     return (
                         <div className='kartu-tutor' key={index}>
-                            <img src={item.image} />
+                            <img src={item.image} alt={item.name} />
                             <p>{item.name}</p>
+                            <small>{item.description}</small> {/* Correctly reference item.description */}
                         </div>
                     )
                 })
@@ -16,4 +18,4 @@ function Tutors(props) {
     )
 }
 
-export default Tutors
+export default Tutors;
