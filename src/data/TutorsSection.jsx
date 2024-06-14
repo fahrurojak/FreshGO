@@ -1,6 +1,14 @@
+import bananaImage from '../assets/banana.png';
 import strawberryImage from '../assets/strawberry.png';
 import watermelonImage from '../assets/watermelon.png';
 import melonImage from '../assets/melon.png';
+import snakeImage from '../assets/snakefruit.png';
+import cauliflowerImage from '../assets/cauliflower.png';
+import lettuceImage from '../assets/lettuce.png';
+import carrotImage from '../assets/carrot.png';
+import potatoImage from '../assets/potato.png';
+import sweetpotatoImage from '../assets/sweetpotato.png';
+
 
 export const tutorsSection = {
     content: `<h2>Products</h2>
@@ -9,13 +17,13 @@ export const tutorsSection = {
 
 export const tutorsList = [
     {
-        image: strawberryImage,
-        name: 'Strawberry',
+        image: bananaImage,
+        name: 'Banana',
         description: 'Type: California, Festival'
     },
     {
         image: watermelonImage,
-        name: 'Watermelon',
+        name: 'Water melon',
         description: 'Type: red, yellow'
     },
     {
@@ -24,38 +32,38 @@ export const tutorsList = [
         description: 'Type: Cantaloupe, Honeydew'
     },
     {
-        image: strawberryImage,
-        name: 'Bruce Wills',
+        image: snakeImage,
+        name: 'Snake Fruit',
         description: 'Actor and producer'
     },
     {
         image: strawberryImage,
-        name: 'Bruce Wills',
+        name: 'Strawberry',
+        description: 'Type: California, Festival'
+    },
+    {
+        image: carrotImage,
+        name: 'Carrot',
         description: 'Actor and producer'
     },
     {
-        image: strawberryImage,
-        name: 'Bruce Wills',
+        image: potatoImage,
+        name: 'Potato',
         description: 'Actor and producer'
     },
     {
-        image: strawberryImage,
-        name: 'Bruce Wills',
+        image: cauliflowerImage,
+        name: 'Cauli flower',
         description: 'Actor and producer'
     },
     {
-        image: strawberryImage,
-        name: 'Bruce Wills',
+        image: lettuceImage,
+        name: 'Lettuce',
         description: 'Actor and producer'
     },
     {
-        image: strawberryImage,
-        name: 'Bruce Wills',
-        description: 'Actor and producer'
-    },
-    {
-        image: strawberryImage,
-        name: 'Bruce Wills',
+        image: sweetpotatoImage,
+        name: 'Sweet Potato',
         description: 'Actor and producer'
     },
 ];
