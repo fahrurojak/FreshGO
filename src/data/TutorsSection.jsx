@@ -19,7 +19,7 @@ export const tutorsList = [
     {
         image: bananaImage,
         name: 'Banana',
-        description: 'Type: California, Festival'
+        description: 'Type: Raja, Cavendish'
     },
     {
         image: watermelonImage,
@@ -34,7 +34,7 @@ export const tutorsList = [
     {
         image: snakeImage,
         name: 'Snake Fruit',
-        description: 'Actor and producer'
+        description: 'Type: Pondoh, Condet'
     },
     {
         image: strawberryImage,
@@ -44,26 +44,36 @@ export const tutorsList = [
     {
         image: carrotImage,
         name: 'Carrot',
-        description: 'Actor and producer'
+        description: 'Type: Nantes, Mini'
     },
     {
         image: potatoImage,
         name: 'Potato',
-        description: 'Actor and producer'
+        description: 'Type: Yellow, Common'
     },
     {
         image: cauliflowerImage,
         name: 'Cauli flower',
-        description: 'Actor and producer'
+        description: 'Type: Green, Savoy'
     },
     {
         image: lettuceImage,
         name: 'Lettuce',
-        description: 'Actor and producer'
+        description: 'Type: Butterhead, Batavia'
     },
     {
         image: sweetpotatoImage,
         name: 'Sweet Potato',
-        description: 'Actor and producer'
+        description: 'Type: Talas/Ubi Keladi Ungu'
+    },
+    {
+        image: sweetpotatoImage,
+        name: 'Sweet Potato',
+        description: 'Type: Talas/Ubi Keladi Ungu'
+    },
+    {
+        image: sweetpotatoImage,
+        name: 'Sweet Potato',
+        description: 'Type: Talas/Ubi Keladi Ungu'
     },
 ];

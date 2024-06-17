@@ -2,13 +2,13 @@
   font-size: 50px;
   font-weight: 800;
   float: left;
-  font-family: 'Arial Black', sans-serif; /* Menggunakan font yang baru */
+  font-family: 'Arial Black', sans-serif; 
   color: #1B9154; /* Warna hijau */
   text-decoration: none; /* Hilangkan garis bawah */
 }
 
 .logo span {
-  color: #000000; /* Warna hitam */
+  color: #000000; 
 }
 
 .menu {
