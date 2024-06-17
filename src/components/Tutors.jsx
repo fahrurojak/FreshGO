@@ -30,8 +30,8 @@ function Tutors({ tutorsList }) {
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <span className="close" onClick={closeModal}>×</span>
             <img src={selectedTutor.image} alt={selectedTutor.name} className="modal-image" />
-            <p>{selectedTutor.name}</p>
-            <small>{selectedTutor.description}</small>
+            <p>{selectedTutor.modalText}</p>
+            <small>{selectedTutor.modalDescription}</small>
           </div>
         </div>
       )}

@@ -1,11 +1,11 @@
 export const contactSection = [
     {
         content: `<h3>FreshGO</h3>
-                        <p>Lem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>`
+                        <p> culpa!</p>`
     },
     {
         content: `<h3>About</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>`
+                        <p>culpa!</p>`
     },
     {
         content: `<h3>Contact</h3>

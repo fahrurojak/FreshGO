@@ -94,6 +94,8 @@
   text-decoration: none;
   cursor: pointer;
 }
+/* Existing CSS */
+/* ... */
 
 .modal-content p {
   font-family: 'Arial Black', sans-serif;
@@ -106,15 +108,4 @@
 .modal-content small {
   font-size: 14px;
   color: #666;
-}
-
-/* Animations */
-@keyframes fadeIn {
-  from { background-color: rgba(0, 0, 0, 0); }
-  to { background-color: rgba(0, 0, 0, 0.5); }
-}
-
-@keyframes slideIn {
-  from { transform: translateY(-50px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
 }
