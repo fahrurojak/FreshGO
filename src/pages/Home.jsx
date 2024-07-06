@@ -7,9 +7,6 @@ import { tutorsSection, tutorsList } from '../data/TutorsSection'
 import { partnersSection, partnersList } from '../data/PartnersSection'
 import { contactSection } from '../data/ContactSection'
 
-
-
-
 import Tutors from '../components/Tutors'
 import Partners from '../components/Partners'
 import Contact from '../components/Contact'
@@ -33,7 +30,7 @@ function Home() {
                     <div className="kolom">
                         {parse(coursesSection.content)}
                     </div>
-                    <img src={coursesSection.image} />
+                    <img src={coursesSection.image} className="responsive-gif" />
                 </section>
                 {/* Tutors */}
                 <section id="tutors">

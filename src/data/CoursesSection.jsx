@@ -1,4 +1,4 @@
-import FreshGOImage from '../assets/FreshGO.png';
+import FreshGOImage from '../assets/freshgo.gif';
 
 export const coursesSection = {
     content: `          <h2>What is FreshGO ?</h2>
@@ -9,4 +9,4 @@ export const coursesSection = {
     <p>Visit FreshGo today and indulge in the natural goodness that will delight your senses and nourish your body. FreshGo—where freshness meets quality, and every visit is a step towards a healthier, happier you!</p>    
                         <p><a href="" className="tbl-black">learn more</a></p>`,
     image: FreshGOImage
-};
+}; 
