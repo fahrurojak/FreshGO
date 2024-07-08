@@ -85,18 +85,17 @@ h2 {
 
 .responsive-gif {
   max-width: 100%;
-  max-height: 400px; /* Set a max height */
+  max-height: 400px; 
   height: auto;
-  object-fit: contain; /* Maintain aspect ratio */
-  border-radius: 20px; /* Adding rounded corners */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Thicker shadow */
+  border-radius: 20px; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
 
 @media screen and (min-width: 992px) {
   .responsive-gif {
-    max-width: 600px; /* Limiting the width on larger screens */
-    max-height: 400px; /* Ensure it doesn't stretch vertically */
-    margin: 0 auto; /* Centering the GIF */
+    max-width: 600px; 
+    max-height: 400px;
+    margin: 0 auto; 
   }
 }
 

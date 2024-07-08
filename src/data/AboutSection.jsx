@@ -1,6 +1,6 @@
 import FreshGOImage from '../assets/freshgo.gif';
 
-export const coursesSection = {
+export const aboutSection = {
     content: `          <h2>What is FreshGO ?</h2>
     <p>Nestled in the picturesque region of Lembang, West Bandung Regency, Indonesia, FreshGo stands as your ultimate destination for the freshest, most delicious fruits. Sourced directly from local farms, our diverse selection ensures that you enjoy the finest produce nature has to offer.</p>
 
