@@ -2,9 +2,10 @@ export const contactSection = [
     {
         content: `<h3>FreshGO</h3>
                   <p>"FreshGo: Taste the Best of Lembang's Fresh Fruits and Vegetables Every Day!"</p>`
+                  
     },
     {
-        content: `<h3>Contact Me</h3>
+        content: `<h3>Contact Us</h3>
                   <p><a href="https://wa.me/082121212426?text=Kak%20apakah%20produk%20ready?" target="_blank">
                       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
                            alt="WhatsApp Logo" 

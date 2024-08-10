@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/Partners.css';
 
 function Partners({ partnersList }) {
@@ -8,6 +9,7 @@ function Partners({ partnersList }) {
                     <img src={item.image} alt={item.title} />
                     <h3>{item.title}</h3>
                     <p>{item.description}</p>
+                    <a href={item.url} target="_blank" rel="noopener noreferrer">full article</a>
                 </div>
             ))}
         </div>
